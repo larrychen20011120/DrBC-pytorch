@@ -11,7 +11,7 @@ def calculate_loss(pred, gt, src, target):
     # transform the ground_truth to (0,1) by sigmoid function
     loss = BCELoss()
     gt = torch.sigmoid(gt)
-    return loss( pred[src]-pred[traget], gt[src]-gt[target] )
+    return loss( pred[src]-pred[target], gt[src]-gt[target] )
 
 class Metrics:
     def __init__(self):
@@ -28,10 +28,13 @@ class Metrics:
         gt = self.ground_truth.reshape(-1)
         # use torch topk choose top k's value
         k_node = int( k/100 * len(gt))
+        print(k_node)
         _, pred_idx = torch.topk(pred, k_node)
+
         _, gt_idx = torch.topk(gt, k_node)
         # transform to numpy therefore can use set
-        pred_set, gt_set = set(pred_idx.numpy()), set(gt_set.numpy())
+        # cuda can't turn into numpy
+        pred_set, gt_set = set(pred_idx.cpu().numpy()), set(gt_idx.cpu().numpy())
         # return the acc in percentage
         return len(pred_set & gt_set) / k_node * 100
 
@@ -39,7 +42,8 @@ class Metrics:
         # use stats kendall_tau
         pred = self.prediction.reshape(-1)
         gt = self.ground_truth.reshape(-1)
-        tau, _ = stats.kendalltau(pred.numpy(), gt.numpy())
+        # cuda can't turn into numpy
+        tau, _ = stats.kendalltau(pred.cpu().numpy(), gt.cpu().numpy())
 
     # runtime calculation
     def start_timer(self):

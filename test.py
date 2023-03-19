@@ -2,7 +2,7 @@ import argparse
 from generator import TestGraph
 from model import DrBC
 
-def eval():
+def test():
     pass
 
 if __name__ == "__main__":
