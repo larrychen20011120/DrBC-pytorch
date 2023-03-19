@@ -7,7 +7,7 @@ class TrainGraph:
     def __init__(self, batch_size, scale):
         # batch_size is for random generate
         self.batch_size = batch_size
-        # synthesis the graph by networkx
+        # synthesis the graph by networkx for every batch
         self.graphs = [
             _synthesis(scale) for _ in range(batch_size)
         ]
