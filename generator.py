@@ -2,18 +2,23 @@ import random
 import numpy as np
 import torch
 import networkx as nx
+import pickle
 
 class TrainGraph:
-    def __init__(self, batch_size, scale):
+    def __init__(self, batch_size, scale, path=None):
         # batch_size is for random generate
         self.batch_size = batch_size
+        self.scale = scale
         self.graphs, self.ground_truths = [], []
-        # synthesis the graph by networkx for every batch
-        for _ in range(batch_size):
-            graph, bc = self._synthesis(scale)
-            self.graphs.append(graph)
-            # ground_truth is in a line
-            self.ground_truths.extend(bc)
+        if path is None:
+            # synthesis the graph by networkx for every batch
+            for _ in range(batch_size):
+                graph, bc = self._synthesis(scale)
+                self.graphs.append(graph)
+                # ground_truth is in a line
+                self.ground_truths.extend(bc)
+        else: # load from the previous generation
+            self._load(path)
 
     # private method for training data to generate the graph
     # from paper it define different scales: scale is a tuple expressed for range
@@ -72,6 +77,14 @@ class TrainGraph:
     def get_ground_truth(self):
         return self.ground_truths
 
+    def save(self, path):
+        with open(path, "wb") as f:
+            pickle.dump({"graphs": self.graphs, "ground_truth": self.ground_truths}, f)
+    def _load(self, path):
+        with open(path, "rb") as f:
+            data = pickle.load(f)
+        self.graphs, self.ground_truths = data['graphs'], data['ground_truth']
+
 class TestGraph:
     def __init__(self, graph_path, bc_path):
         # edges match two list (two nodes)
@@ -95,3 +108,19 @@ class TestGraph:
                 line = (line.rstrip()).split("\t")
                 # node number matches the list index
                 self.bc_values.append( float(line[1]) )
+
+
+if __name__ == "__main__":
+    # generate the dataset
+    scales = [
+        (100,200), (200,300), (1000,1200)
+    ]
+    batch_size = 16
+    for scale in scales:
+        number = int(10000/batch_size)
+        for i in range(number):
+            train_data = TrainGraph(batch_size=batch_size, scale=scale)
+            train_data.save(f"train_val_gen/{scale[0]}_{scale[1]}/train/{i}.pkl")
+        for i in range(20):
+            val_data = TrainGraph(batch_size=1, scale=scale)
+            val_data.save(f"train_val_gen/{scale[0]}_{scale[1]}/val/{i}.pkl")

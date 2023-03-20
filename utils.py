@@ -28,7 +28,6 @@ class Metrics:
         gt = self.ground_truth.reshape(-1)
         # use torch topk choose top k's value
         k_node = int( k/100 * len(gt))
-        print(k_node)
         _, pred_idx = torch.topk(pred, k_node)
 
         _, gt_idx = torch.topk(gt, k_node)

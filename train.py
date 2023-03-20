@@ -1,4 +1,5 @@
 import argparse
+import os
 import pickle
 import torch
 from torch.optim import Adam, SGD
@@ -14,10 +15,10 @@ def train(model, lr, optimizer, batch_size, episodes, scale, device):
         "eval_acc": [],
         "best_loss": 1e8,
         "best_acc": 0,
-        "acc_early": 0
+        "acc_early": -100
     }
     train_step = 500
-    train_graph = None
+    entry = f'train_val_gen/{scale[0]}_{scale[1]}/'
     eval_graph = TrainGraph(batch_size=1, scale=(4000,5000))
 
     device = torch.device("cuda:0" if torch.cuda.is_available() and device == "gpu" else "cpu")
@@ -28,78 +29,88 @@ def train(model, lr, optimizer, batch_size, episodes, scale, device):
         optimizer = SGD(model.parameters(), lr=lr, weight_decay=1e-5, momentum=0.9)
 
     # training progress...
-    for iteration in range(episodes):
-        print(f"========================================== Iteration {iteration+1} ==========================================")
-        # generate graph every iteration
-        if iteration % train_step == 0:
-            train_graph = TrainGraph(batch_size=batch_size, scale=scale)
-            print("Training: Completely generating the graph data")
-        # preparing data
-        input = train_graph.get_input()
-        edge_idx = train_graph.get_edge_idx()
-        gt = train_graph.get_ground_truth()
-        src, target = train_graph.select_pairs()
+    for epoch in range(episodes):
+        print(f"========================================== Epoch {epoch+1} ==========================================")
+        # load batch data
+        total_loss = 0
+        for batch_path in os.listdir(os.path.join(entry, 'train')):
+            train_graph = TrainGraph(batch_size=batch_size, scale=scale, path=os.path.join(entry, 'train', batch_path))
+            # preparing data
+            input = train_graph.get_input()
+            edge_idx = train_graph.get_edge_idx()
+            gt = train_graph.get_ground_truth()
+            src, target = train_graph.select_pairs()
 
-        # start training
-        model.train()
-        # converting the data into torch tensor and certain device
-        input = torch.tensor(input, dtype=torch.float)
-        edge_idx = torch.tensor(edge_idx, dtype=torch.long)
-        gt = torch.tensor(gt).view(-1, 1)
+            # start training
+            model.train()
+            # converting the data into torch tensor and certain device
+            input = torch.tensor(input, dtype=torch.float)
+            edge_idx = torch.tensor(edge_idx, dtype=torch.long)
+            gt = torch.tensor(gt).view(-1, 1)
 
-        # calculate loss and update parameters
-        pred = model(input.to(device), edge_idx.to(device))
-        loss = calculate_loss(
-            pred.to(device), gt.to(device), src, target
-        )
-        loss.backward()
-        optimizer.step()
-        print(f"Training loss ===> {loss.item():.4f}")
-        logs["train_loss"].append(loss)
+            # calculate loss and update parameters
+            pred = model(input.to(device), edge_idx.to(device))
+            loss = calculate_loss(
+                pred.to(device), gt.to(device), src, target
+            )
+            total_loss += loss.item()
+            loss.backward()
+            optimizer.step()
+
+        print(f"Training loss ===> {total_loss/10000:.4f}")
+        logs["train_loss"].append(total_loss/10000)
 
         # evaluation
         loss, acc = eval(model, eval_graph, device)
-        print(f"Evaluation Top-1% Acc ===> {acc:.2f}%")
         logs["eval_loss"].append(loss)
         logs["eval_acc"].append(acc)
         if loss < logs["best_loss"]:
             logs["best_loss"] = loss
             logs["best_acc"] = acc
-            torch.save(model.state_dict(), "model.pth")
+            torch.save(model.state_dict(), f"model_result/{scale[0]}_{scale[1]}.pth")
             print("Saving the best model weights!!")
-        # dump the log file
-        with open(logs["path"], "wb") as f:
-            pickle.dump(logs, f)
+
         # Early stop (check every 500 iterations)
+        # dump logs
         if iteration % train_step == 0:
-            if acc-logs['acc_early'] < 0.5:
+            # should more than one percent improvement
+            if acc-logs['acc_early'] < 1:
                 return
             else:
                 acc_early = acc
+                # dump the log file
+                with open(logs["path"], "wb") as f:
+                    pickle.dump(logs, f)
 
-def eval(model, eval_graph, device):
+def eval(model, entry, eval_graph, device):
     model.eval()
-    print("Evaluation: Completely generating the graph data")
-    # preparing the data
-    input = eval_graph.get_input()
-    edge_idx = eval_graph.get_edge_idx()
-    gt = eval_graph.get_ground_truth()
-    src, target = eval_graph.select_pairs()
-    # converting the data into torch tensor and certain device
-    input = torch.tensor(input, dtype=torch.float)
-    edge_idx = torch.tensor(edge_idx, dtype=torch.long)
-    gt = torch.tensor(gt).view(-1, 1)
+    total_loss, total_acc = 0, 0
+    for batch_path in os.listdir(os.path.join(entry, 'val')):
+        eval_graph = TrainGraph(batch_size=1, scale=scale, path=os.path.join(entry, 'val', batch_path))
+        # preparing the data
+        input = eval_graph.get_input()
+        edge_idx = eval_graph.get_edge_idx()
+        gt = eval_graph.get_ground_truth()
+        src, target = eval_graph.select_pairs()
+        # converting the data into torch tensor and certain device
+        input = torch.tensor(input, dtype=torch.float)
+        edge_idx = torch.tensor(edge_idx, dtype=torch.long)
+        gt = torch.tensor(gt).view(-1, 1)
 
-    with torch.no_grad():
-        pred = model(input.to(device), edge_idx.to(device))
-        loss = calculate_loss(
-            pred.to(device), gt.to(device), src, target
-        )
-        print(f"Evaluation loss ===> {loss.item():.4f}")
+        with torch.no_grad():
+            pred = model(input.to(device), edge_idx.to(device))
+            loss = calculate_loss(
+                pred.to(device), gt.to(device), src, target
+            )
+            total_loss += loss.item()
+            metrics = Metrics()
+            metrics.set_output(pred, gt)
+            total_acc += metrics.top_k()
 
-    metrics = Metrics()
-    metrics.set_output(pred, gt)
-    return loss, metrics.top_k()
+    print(f"Evaluation loss ===> {total_loss/20:.4f}")
+    print(f"Evaluation Top-1% Acc ===> {total_acc/20}%")
+
+    return total_loss, total_acc
 
 
 if __name__ == "__main__":
