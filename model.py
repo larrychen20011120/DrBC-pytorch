@@ -83,15 +83,3 @@ class DrBC(nn.Module):
         z = self.encoder(x, edge_idx)
         z = self.decoder(z)
         return z
-
-if __name__ == "__main__":
-    # testing for the model result
-    model = DrBC()
-    x = torch.tensor([[2, 1, 1],[2, 1, 1],[2, 1, 1],[2, 1, 1]],dtype=torch.float)
-
-    y = torch.tensor([[0,2,1,0,3],[3,1,0,1,2]],dtype=torch.long)
-
-    edge_index = torch.tensor([[0,1,2],
-                               [1,2,3]],dtype=torch.long)
-
-    print(model(x, edge_index))

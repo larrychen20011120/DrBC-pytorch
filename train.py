@@ -6,7 +6,6 @@ from torch.optim import Adam, SGD
 from generator import TrainGraph
 from utils import calculate_loss, Metrics
 from model import DrBC
-from tqdm import tqdm
 
 def train(model, lr, optimizer, batch_size, episodes, scale, device):
     logs = {
@@ -18,13 +17,17 @@ def train(model, lr, optimizer, batch_size, episodes, scale, device):
         "best_acc": 0,
         "acc_early": -100
     }
+    # the step for checking early stopping
     train_step = 50
+    # entry directory of the scale data
     entry = f'train_val_gen/{scale[0]}_{scale[1]}/'
 
+    # device setting and model structure
     device = torch.device("cuda:0" if torch.cuda.is_available() and device == "gpu" else "cpu")
     print(model)
     model.to(device)
 
+    # which optimizer to use => Adam or SGD
     if optimizer == "adam":
         optimizer = Adam(model.parameters(), lr=lr)
     else:

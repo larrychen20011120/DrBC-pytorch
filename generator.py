@@ -3,7 +3,7 @@ import numpy as np
 import torch
 import networkx as nx
 import pickle
-import math
+import argparse
 
 class TrainGraph:
     def __init__(self, batch_size, scale, path=None):
@@ -110,18 +110,49 @@ class TestGraph:
                 # node number matches the list index
                 self.bc_values.append( float(line[1]) )
 
+    # for training input
+    def get_input(self):
+        # initialize the node without edges to degree 0
+        degrees = [0] * len(self.bc_values)
+        # focus on the first node is OK
+        # assume it is an undirected graph
+        for edge in self.edges:
+            degrees[edge[0]] += 1
+        return [[degree, 1, 1] for degree in degrees]
+        
+    def get_edge_idx(self):
+        return self.edges
+    def get_ground_truth(self):
+        return self.bc_values
 
+
+## here is for generating the training data and evaluation data
 if __name__ == "__main__":
-    # generate the dataset
+    # parser of arguments
+    arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument("--batch_size", type=int, default=16)
+    arg_parser.add_argument("--train_size", type=int, default=10000)
+    arg_parser.add_argument("--eval_size", type=int, default=100)
+    # index from 0~4
+    arg_parser.add_argument("--scale", nargs='+', type=int)
+    args = arg_parser.parse_args()
+
+    # parameter settings
     scales = [
-        (1000,1200)
+        (100, 200), (200, 300), (1000,1200), (2000, 3000), (4000, 5000)
     ]
-    batch_size = 16
+    batch_size = args.batch_size
+    train_size = args.train_size
+    eval_size = args.eval_size
+    scales = [ scales[idx] for idx in tuple(args.scale)]
+
+    # generate the dataset
+    # use tqdm for tracking the progress
     for scale in scales:
-        number = int(10000/batch_size)
-        for i in range(217,number):
+        number = int(train_size/batch_size)
+        for i in tqdm(range(number)):
             train_data = TrainGraph(batch_size=batch_size, scale=scale)
             train_data.save(f"train_val_gen/{scale[0]}_{scale[1]}/train/{i}.pkl")
-        for i in range(20):
+        for i in tqdm(range(eval_size)):
             val_data = TrainGraph(batch_size=1, scale=scale)
             val_data.save(f"train_val_gen/{scale[0]}_{scale[1]}/val/{i}.pkl")
