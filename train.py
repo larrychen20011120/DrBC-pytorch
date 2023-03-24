@@ -6,6 +6,7 @@ from torch.optim import Adam, SGD
 from generator import TrainGraph
 from utils import calculate_loss, Metrics
 from model import DrBC
+from tqdm import tqdm
 
 def train(model, lr, optimizer, batch_size, episodes, scale, device):
     logs = {
@@ -17,12 +18,13 @@ def train(model, lr, optimizer, batch_size, episodes, scale, device):
         "best_acc": 0,
         "acc_early": -100
     }
-    train_step = 500
+    train_step = 50
     entry = f'train_val_gen/{scale[0]}_{scale[1]}/'
-    eval_graph = TrainGraph(batch_size=1, scale=(4000,5000))
 
     device = torch.device("cuda:0" if torch.cuda.is_available() and device == "gpu" else "cpu")
+    print(model)
     model.to(device)
+
     if optimizer == "adam":
         optimizer = Adam(model.parameters(), lr=lr)
     else:
@@ -61,7 +63,7 @@ def train(model, lr, optimizer, batch_size, episodes, scale, device):
         logs["train_loss"].append(total_loss/10000)
 
         # evaluation
-        loss, acc = eval(model, eval_graph, device)
+        loss, acc = eval(model, entry, scale, device)
         logs["eval_loss"].append(loss)
         logs["eval_acc"].append(acc)
         if loss < logs["best_loss"]:
@@ -72,7 +74,7 @@ def train(model, lr, optimizer, batch_size, episodes, scale, device):
 
         # Early stop (check every 500 iterations)
         # dump logs
-        if iteration % train_step == 0:
+        if epoch % train_step == 0:
             # should more than one percent improvement
             if acc-logs['acc_early'] < 1:
                 return
@@ -82,7 +84,7 @@ def train(model, lr, optimizer, batch_size, episodes, scale, device):
                 with open(logs["path"], "wb") as f:
                     pickle.dump(logs, f)
 
-def eval(model, entry, eval_graph, device):
+def eval(model, entry, scale, device):
     model.eval()
     total_loss, total_acc = 0, 0
     for batch_path in os.listdir(os.path.join(entry, 'val')):
@@ -105,10 +107,10 @@ def eval(model, entry, eval_graph, device):
             total_loss += loss.item()
             metrics = Metrics()
             metrics.set_output(pred, gt)
-            total_acc += metrics.top_k()
+            total_acc += metrics.top_k(k=10)
 
     print(f"Evaluation loss ===> {total_loss/20:.4f}")
-    print(f"Evaluation Top-1% Acc ===> {total_acc/20}%")
+    print(f"Evaluation Top-10% Acc ===> {total_acc/20:.2f}%")
 
     return total_loss, total_acc
 

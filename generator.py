@@ -3,6 +3,7 @@ import numpy as np
 import torch
 import networkx as nx
 import pickle
+import math
 
 class TrainGraph:
     def __init__(self, batch_size, scale, path=None):
@@ -113,12 +114,12 @@ class TestGraph:
 if __name__ == "__main__":
     # generate the dataset
     scales = [
-        (100,200), (200,300), (1000,1200)
+        (1000,1200)
     ]
     batch_size = 16
     for scale in scales:
         number = int(10000/batch_size)
-        for i in range(number):
+        for i in range(217,number):
             train_data = TrainGraph(batch_size=batch_size, scale=scale)
             train_data.save(f"train_val_gen/{scale[0]}_{scale[1]}/train/{i}.pkl")
         for i in range(20):
