@@ -4,6 +4,8 @@ import torch
 import networkx as nx
 import pickle
 import argparse
+from tqdm import tqdm
+import math
 
 class TrainGraph:
     def __init__(self, batch_size, scale, path=None):
@@ -92,10 +94,9 @@ class TestGraph:
         self.edges = [ [], [] ]
         self.bc_values = []
         # read the graph txt data
-        # '\t' as split and int values
         with open(graph_path, "r") as f:
             for line in f.readlines():
-                line = (line.rstrip()).split("\t")
+                line = (line.rstrip()).split()
                 start_node, end_node = int(line[0]), int(line[1])
                 # undirected graph (start->end) and (end->start)
                 self.edges[0].append(start_node)
@@ -106,7 +107,7 @@ class TestGraph:
         # '\t' as split and (int value, float score)
         with open(bc_path, "r") as f:
             for line in f.readlines():
-                line = (line.rstrip()).split("\t")
+                line = (line.rstrip()).split()
                 # node number matches the list index
                 self.bc_values.append( float(line[1]) )
 

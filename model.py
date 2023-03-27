@@ -14,7 +14,7 @@ class Encoder(MessagePassing):
         self.grus  = nn.ModuleList([
             nn.GRU(embed_size, embed_size) for _ in range(block_number)
         ])
-        self.relu_in = nn.ReLU(inplace=True)
+        self.relu_in = nn.ReLU()
 
     def forward(self, x, edge_idx):
 
@@ -43,7 +43,7 @@ class Encoder(MessagePassing):
             h = gru(h, x)
             h = F.normalize(h[0][0], p=2, dim=1)
             hidden_layers.append(h)
-            x = h
+            x = h 
 
         hidden_layers = torch.stack(hidden_layers)
         # max_pooling from all layers for decoder to decoding
@@ -64,7 +64,7 @@ class Decoder(nn.Module):
         super().__init__()
         self.hidden = nn.Linear(feature_size, hidden_size)
         self.output = nn.Linear(hidden_size, 1)
-        self.relu = nn.ReLU(inplace=True)
+        self.relu = nn.ReLU()
 
     def forward(self, z):
         z = self.hidden(z)

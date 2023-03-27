@@ -10,8 +10,7 @@ def calculate_loss(pred, gt, src, target):
     # in BCEWithLogitsLoss the prediction will automatically apply sigmoid function
     # transform the ground_truth to (0,1) by sigmoid function
     loss = BCELoss()
-    gt = torch.sigmoid(gt)
-    return loss( pred[src]-pred[target], gt[src]-gt[target] )
+    return loss( pred[src]-pred[target], torch.sigmoid(gt[src]-gt[target]) )
 
 class Metrics:
     def __init__(self):
@@ -43,6 +42,7 @@ class Metrics:
         gt = self.ground_truth.reshape(-1)
         # cuda can't turn into numpy
         tau, _ = stats.kendalltau(pred.cpu().numpy(), gt.cpu().numpy())
+        return tau
 
     # runtime calculation
     def start_timer(self):
