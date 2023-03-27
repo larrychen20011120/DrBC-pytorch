@@ -1,0 +1,1352 @@
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 56.00%
+3. Top 5% Acc ===> 82.40%
+4. Top 10% Acc ===> 79.80%
+5. Kendall Tau Statistics ===> 0.27
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 94.00%
+3. Top 5% Acc ===> 82.40%
+4. Top 10% Acc ===> 78.60%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 98.00%
+3. Top 5% Acc ===> 84.80%
+4. Top 10% Acc ===> 87.20%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 60.00%
+3. Top 5% Acc ===> 13.20%
+4. Top 10% Acc ===> 10.80%
+5. Kendall Tau Statistics ===> -0.01
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 30.00%
+3. Top 5% Acc ===> 25.60%
+4. Top 10% Acc ===> 46.20%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 60.00%
+3. Top 5% Acc ===> 88.80%
+4. Top 10% Acc ===> 80.80%
+5. Kendall Tau Statistics ===> 0.29
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 86.00%
+3. Top 5% Acc ===> 88.00%
+4. Top 10% Acc ===> 78.60%
+5. Kendall Tau Statistics ===> 0.37
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 92.00%
+3. Top 5% Acc ===> 82.80%
+4. Top 10% Acc ===> 89.40%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 44.00%
+3. Top 5% Acc ===> 10.00%
+4. Top 10% Acc ===> 9.00%
+5. Kendall Tau Statistics ===> -0.02
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 22.00%
+3. Top 5% Acc ===> 18.80%
+4. Top 10% Acc ===> 46.80%
+5. Kendall Tau Statistics ===> 0.47
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 56.00%
+3. Top 5% Acc ===> 82.40%
+4. Top 10% Acc ===> 79.80%
+5. Kendall Tau Statistics ===> 0.27
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 84.00%
+3. Top 5% Acc ===> 82.40%
+4. Top 10% Acc ===> 78.00%
+5. Kendall Tau Statistics ===> 0.35
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 90.00%
+3. Top 5% Acc ===> 82.80%
+4. Top 10% Acc ===> 87.40%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 54.00%
+3. Top 5% Acc ===> 12.00%
+4. Top 10% Acc ===> 9.20%
+5. Kendall Tau Statistics ===> -0.00
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 20.00%
+3. Top 5% Acc ===> 24.80%
+4. Top 10% Acc ===> 49.20%
+5. Kendall Tau Statistics ===> 0.46
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 52.00%
+3. Top 5% Acc ===> 82.00%
+4. Top 10% Acc ===> 79.60%
+5. Kendall Tau Statistics ===> 0.26
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 88.00%
+3. Top 5% Acc ===> 82.00%
+4. Top 10% Acc ===> 79.00%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 94.00%
+3. Top 5% Acc ===> 84.80%
+4. Top 10% Acc ===> 86.80%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 52.00%
+3. Top 5% Acc ===> 11.20%
+4. Top 10% Acc ===> 9.60%
+5. Kendall Tau Statistics ===> 0.01
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 34.00%
+3. Top 5% Acc ===> 24.40%
+4. Top 10% Acc ===> 52.40%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 64.00%
+3. Top 5% Acc ===> 82.40%
+4. Top 10% Acc ===> 81.00%
+5. Kendall Tau Statistics ===> 0.30
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 90.00%
+3. Top 5% Acc ===> 80.80%
+4. Top 10% Acc ===> 79.40%
+5. Kendall Tau Statistics ===> 0.37
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 98.00%
+3. Top 5% Acc ===> 83.60%
+4. Top 10% Acc ===> 88.40%
+5. Kendall Tau Statistics ===> 0.50
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 54.00%
+3. Top 5% Acc ===> 11.20%
+4. Top 10% Acc ===> 8.20%
+5. Kendall Tau Statistics ===> -0.02
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 26.00%
+3. Top 5% Acc ===> 21.20%
+4. Top 10% Acc ===> 48.60%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 60.00%
+3. Top 5% Acc ===> 83.20%
+4. Top 10% Acc ===> 78.80%
+5. Kendall Tau Statistics ===> 0.28
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 84.00%
+3. Top 5% Acc ===> 82.80%
+4. Top 10% Acc ===> 77.00%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 92.00%
+3. Top 5% Acc ===> 83.60%
+4. Top 10% Acc ===> 87.60%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 52.00%
+3. Top 5% Acc ===> 12.00%
+4. Top 10% Acc ===> 10.80%
+5. Kendall Tau Statistics ===> -0.00
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 30.00%
+3. Top 5% Acc ===> 28.80%
+4. Top 10% Acc ===> 53.20%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 62.00%
+3. Top 5% Acc ===> 83.20%
+4. Top 10% Acc ===> 79.00%
+5. Kendall Tau Statistics ===> 0.29
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 86.00%
+3. Top 5% Acc ===> 83.60%
+4. Top 10% Acc ===> 77.00%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 88.00%
+3. Top 5% Acc ===> 83.20%
+4. Top 10% Acc ===> 87.20%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 48.00%
+3. Top 5% Acc ===> 10.80%
+4. Top 10% Acc ===> 9.40%
+5. Kendall Tau Statistics ===> -0.02
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 28.00%
+3. Top 5% Acc ===> 23.20%
+4. Top 10% Acc ===> 48.40%
+5. Kendall Tau Statistics ===> 0.46
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 58.00%
+3. Top 5% Acc ===> 84.80%
+4. Top 10% Acc ===> 78.00%
+5. Kendall Tau Statistics ===> 0.27
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 90.00%
+3. Top 5% Acc ===> 84.00%
+4. Top 10% Acc ===> 75.60%
+5. Kendall Tau Statistics ===> 0.35
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 96.00%
+3. Top 5% Acc ===> 84.80%
+4. Top 10% Acc ===> 89.00%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 50.00%
+3. Top 5% Acc ===> 12.40%
+4. Top 10% Acc ===> 9.40%
+5. Kendall Tau Statistics ===> -0.00
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 26.00%
+3. Top 5% Acc ===> 27.20%
+4. Top 10% Acc ===> 49.80%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 56.00%
+3. Top 5% Acc ===> 81.20%
+4. Top 10% Acc ===> 83.20%
+5. Kendall Tau Statistics ===> 0.27
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 84.00%
+3. Top 5% Acc ===> 80.00%
+4. Top 10% Acc ===> 81.40%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 90.00%
+3. Top 5% Acc ===> 84.40%
+4. Top 10% Acc ===> 90.40%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 52.00%
+3. Top 5% Acc ===> 11.60%
+4. Top 10% Acc ===> 8.20%
+5. Kendall Tau Statistics ===> -0.03
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 34.00%
+3. Top 5% Acc ===> 26.00%
+4. Top 10% Acc ===> 52.20%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 54.00%
+3. Top 5% Acc ===> 83.60%
+4. Top 10% Acc ===> 82.00%
+5. Kendall Tau Statistics ===> 0.28
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 92.00%
+3. Top 5% Acc ===> 84.00%
+4. Top 10% Acc ===> 81.00%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 96.00%
+3. Top 5% Acc ===> 83.60%
+4. Top 10% Acc ===> 89.80%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 50.00%
+3. Top 5% Acc ===> 11.60%
+4. Top 10% Acc ===> 9.60%
+5. Kendall Tau Statistics ===> -0.02
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 24.00%
+3. Top 5% Acc ===> 22.40%
+4. Top 10% Acc ===> 48.00%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 60.00%
+3. Top 5% Acc ===> 84.00%
+4. Top 10% Acc ===> 80.20%
+5. Kendall Tau Statistics ===> 0.28
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 90.00%
+3. Top 5% Acc ===> 84.00%
+4. Top 10% Acc ===> 78.20%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 88.00%
+3. Top 5% Acc ===> 80.80%
+4. Top 10% Acc ===> 89.20%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 46.00%
+3. Top 5% Acc ===> 10.40%
+4. Top 10% Acc ===> 8.00%
+5. Kendall Tau Statistics ===> -0.00
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 32.00%
+3. Top 5% Acc ===> 25.20%
+4. Top 10% Acc ===> 48.20%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 58.00%
+3. Top 5% Acc ===> 81.60%
+4. Top 10% Acc ===> 77.40%
+5. Kendall Tau Statistics ===> 0.28
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 92.00%
+3. Top 5% Acc ===> 82.00%
+4. Top 10% Acc ===> 75.80%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 94.00%
+3. Top 5% Acc ===> 81.60%
+4. Top 10% Acc ===> 85.00%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 52.00%
+3. Top 5% Acc ===> 12.40%
+4. Top 10% Acc ===> 10.00%
+5. Kendall Tau Statistics ===> -0.00
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 26.00%
+3. Top 5% Acc ===> 26.00%
+4. Top 10% Acc ===> 48.60%
+5. Kendall Tau Statistics ===> 0.47
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 64.00%
+3. Top 5% Acc ===> 79.20%
+4. Top 10% Acc ===> 80.60%
+5. Kendall Tau Statistics ===> 0.28
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 88.00%
+3. Top 5% Acc ===> 79.20%
+4. Top 10% Acc ===> 78.00%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 92.00%
+3. Top 5% Acc ===> 81.60%
+4. Top 10% Acc ===> 87.80%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 42.00%
+3. Top 5% Acc ===> 10.40%
+4. Top 10% Acc ===> 7.60%
+5. Kendall Tau Statistics ===> -0.02
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 30.00%
+3. Top 5% Acc ===> 26.00%
+4. Top 10% Acc ===> 49.00%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 52.00%
+3. Top 5% Acc ===> 84.40%
+4. Top 10% Acc ===> 77.80%
+5. Kendall Tau Statistics ===> 0.26
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 88.00%
+3. Top 5% Acc ===> 82.80%
+4. Top 10% Acc ===> 76.60%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 94.00%
+3. Top 5% Acc ===> 84.80%
+4. Top 10% Acc ===> 86.40%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 54.00%
+3. Top 5% Acc ===> 11.60%
+4. Top 10% Acc ===> 9.80%
+5. Kendall Tau Statistics ===> 0.01
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 26.00%
+3. Top 5% Acc ===> 22.80%
+4. Top 10% Acc ===> 49.00%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 56.00%
+3. Top 5% Acc ===> 80.00%
+4. Top 10% Acc ===> 81.20%
+5. Kendall Tau Statistics ===> 0.28
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 86.00%
+3. Top 5% Acc ===> 80.00%
+4. Top 10% Acc ===> 78.80%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 96.00%
+3. Top 5% Acc ===> 84.80%
+4. Top 10% Acc ===> 86.40%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 48.00%
+3. Top 5% Acc ===> 10.80%
+4. Top 10% Acc ===> 7.80%
+5. Kendall Tau Statistics ===> -0.01
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 24.00%
+3. Top 5% Acc ===> 24.80%
+4. Top 10% Acc ===> 46.20%
+5. Kendall Tau Statistics ===> 0.47
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 58.00%
+3. Top 5% Acc ===> 82.00%
+4. Top 10% Acc ===> 82.80%
+5. Kendall Tau Statistics ===> 0.30
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 90.00%
+3. Top 5% Acc ===> 82.00%
+4. Top 10% Acc ===> 81.20%
+5. Kendall Tau Statistics ===> 0.38
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 94.00%
+3. Top 5% Acc ===> 83.60%
+4. Top 10% Acc ===> 90.40%
+5. Kendall Tau Statistics ===> 0.50
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 52.00%
+3. Top 5% Acc ===> 11.20%
+4. Top 10% Acc ===> 8.40%
+5. Kendall Tau Statistics ===> -0.02
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 28.00%
+3. Top 5% Acc ===> 26.40%
+4. Top 10% Acc ===> 51.00%
+5. Kendall Tau Statistics ===> 0.50
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 66.00%
+3. Top 5% Acc ===> 80.40%
+4. Top 10% Acc ===> 82.80%
+5. Kendall Tau Statistics ===> 0.29
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 88.00%
+3. Top 5% Acc ===> 79.60%
+4. Top 10% Acc ===> 81.60%
+5. Kendall Tau Statistics ===> 0.37
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 94.00%
+3. Top 5% Acc ===> 81.20%
+4. Top 10% Acc ===> 90.60%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 42.00%
+3. Top 5% Acc ===> 10.40%
+4. Top 10% Acc ===> 8.20%
+5. Kendall Tau Statistics ===> -0.03
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 32.00%
+3. Top 5% Acc ===> 23.60%
+4. Top 10% Acc ===> 49.20%
+5. Kendall Tau Statistics ===> 0.47
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 66.00%
+3. Top 5% Acc ===> 81.20%
+4. Top 10% Acc ===> 79.00%
+5. Kendall Tau Statistics ===> 0.28
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 92.00%
+3. Top 5% Acc ===> 80.00%
+4. Top 10% Acc ===> 77.20%
+5. Kendall Tau Statistics ===> 0.35
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 90.00%
+3. Top 5% Acc ===> 85.20%
+4. Top 10% Acc ===> 85.40%
+5. Kendall Tau Statistics ===> 0.47
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 50.00%
+3. Top 5% Acc ===> 10.80%
+4. Top 10% Acc ===> 9.00%
+5. Kendall Tau Statistics ===> -0.02
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 28.00%
+3. Top 5% Acc ===> 26.00%
+4. Top 10% Acc ===> 46.40%
+5. Kendall Tau Statistics ===> 0.46
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 58.00%
+3. Top 5% Acc ===> 85.60%
+4. Top 10% Acc ===> 77.00%
+5. Kendall Tau Statistics ===> 0.28
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 92.00%
+3. Top 5% Acc ===> 84.00%
+4. Top 10% Acc ===> 76.20%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 94.00%
+3. Top 5% Acc ===> 83.20%
+4. Top 10% Acc ===> 87.00%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 54.00%
+3. Top 5% Acc ===> 11.60%
+4. Top 10% Acc ===> 9.40%
+5. Kendall Tau Statistics ===> -0.00
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 32.00%
+3. Top 5% Acc ===> 26.00%
+4. Top 10% Acc ===> 47.60%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 64.00%
+3. Top 5% Acc ===> 84.80%
+4. Top 10% Acc ===> 79.20%
+5. Kendall Tau Statistics ===> 0.28
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 92.00%
+3. Top 5% Acc ===> 85.20%
+4. Top 10% Acc ===> 78.00%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 96.00%
+3. Top 5% Acc ===> 84.00%
+4. Top 10% Acc ===> 88.00%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 60.00%
+3. Top 5% Acc ===> 13.20%
+4. Top 10% Acc ===> 10.40%
+5. Kendall Tau Statistics ===> -0.00
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 30.00%
+3. Top 5% Acc ===> 22.80%
+4. Top 10% Acc ===> 49.20%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 60.00%
+3. Top 5% Acc ===> 83.20%
+4. Top 10% Acc ===> 81.80%
+5. Kendall Tau Statistics ===> 0.27
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 90.00%
+3. Top 5% Acc ===> 82.00%
+4. Top 10% Acc ===> 79.60%
+5. Kendall Tau Statistics ===> 0.35
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 96.00%
+3. Top 5% Acc ===> 84.40%
+4. Top 10% Acc ===> 90.00%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 60.00%
+3. Top 5% Acc ===> 13.60%
+4. Top 10% Acc ===> 10.40%
+5. Kendall Tau Statistics ===> 0.00
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 28.00%
+3. Top 5% Acc ===> 24.40%
+4. Top 10% Acc ===> 49.20%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 66.00%
+3. Top 5% Acc ===> 82.40%
+4. Top 10% Acc ===> 79.00%
+5. Kendall Tau Statistics ===> 0.29
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 92.00%
+3. Top 5% Acc ===> 81.20%
+4. Top 10% Acc ===> 78.60%
+5. Kendall Tau Statistics ===> 0.37
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 96.00%
+3. Top 5% Acc ===> 83.60%
+4. Top 10% Acc ===> 87.00%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 52.00%
+3. Top 5% Acc ===> 12.00%
+4. Top 10% Acc ===> 10.00%
+5. Kendall Tau Statistics ===> -0.02
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 26.00%
+3. Top 5% Acc ===> 28.40%
+4. Top 10% Acc ===> 49.80%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 56.00%
+3. Top 5% Acc ===> 85.20%
+4. Top 10% Acc ===> 80.00%
+5. Kendall Tau Statistics ===> 0.27
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 90.00%
+3. Top 5% Acc ===> 84.00%
+4. Top 10% Acc ===> 78.20%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 96.00%
+3. Top 5% Acc ===> 84.00%
+4. Top 10% Acc ===> 89.00%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 48.00%
+3. Top 5% Acc ===> 11.20%
+4. Top 10% Acc ===> 8.80%
+5. Kendall Tau Statistics ===> -0.01
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 32.00%
+3. Top 5% Acc ===> 22.80%
+4. Top 10% Acc ===> 46.60%
+5. Kendall Tau Statistics ===> 0.47
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 62.00%
+3. Top 5% Acc ===> 81.20%
+4. Top 10% Acc ===> 81.40%
+5. Kendall Tau Statistics ===> 0.28
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 88.00%
+3. Top 5% Acc ===> 80.80%
+4. Top 10% Acc ===> 80.40%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 92.00%
+3. Top 5% Acc ===> 83.20%
+4. Top 10% Acc ===> 89.20%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 54.00%
+3. Top 5% Acc ===> 11.60%
+4. Top 10% Acc ===> 7.80%
+5. Kendall Tau Statistics ===> -0.03
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 30.00%
+3. Top 5% Acc ===> 25.20%
+4. Top 10% Acc ===> 50.60%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 48.00%
+3. Top 5% Acc ===> 84.80%
+4. Top 10% Acc ===> 81.60%
+5. Kendall Tau Statistics ===> 0.29
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 90.00%
+3. Top 5% Acc ===> 83.60%
+4. Top 10% Acc ===> 79.80%
+5. Kendall Tau Statistics ===> 0.37
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 92.00%
+3. Top 5% Acc ===> 86.00%
+4. Top 10% Acc ===> 89.60%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 58.00%
+3. Top 5% Acc ===> 13.60%
+4. Top 10% Acc ===> 9.60%
+5. Kendall Tau Statistics ===> -0.00
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 26.00%
+3. Top 5% Acc ===> 23.20%
+4. Top 10% Acc ===> 49.80%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 60.00%
+3. Top 5% Acc ===> 84.00%
+4. Top 10% Acc ===> 82.60%
+5. Kendall Tau Statistics ===> 0.28
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 88.00%
+3. Top 5% Acc ===> 83.20%
+4. Top 10% Acc ===> 80.40%
+5. Kendall Tau Statistics ===> 0.37
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 92.00%
+3. Top 5% Acc ===> 82.80%
+4. Top 10% Acc ===> 90.20%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 46.00%
+3. Top 5% Acc ===> 10.00%
+4. Top 10% Acc ===> 8.60%
+5. Kendall Tau Statistics ===> -0.00
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 28.00%
+3. Top 5% Acc ===> 21.60%
+4. Top 10% Acc ===> 46.60%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 54.00%
+3. Top 5% Acc ===> 85.20%
+4. Top 10% Acc ===> 78.40%
+5. Kendall Tau Statistics ===> 0.28
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 92.00%
+3. Top 5% Acc ===> 84.40%
+4. Top 10% Acc ===> 76.40%
+5. Kendall Tau Statistics ===> 0.37
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 94.00%
+3. Top 5% Acc ===> 84.00%
+4. Top 10% Acc ===> 89.00%
+5. Kendall Tau Statistics ===> 0.48
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 58.00%
+3. Top 5% Acc ===> 12.00%
+4. Top 10% Acc ===> 9.60%
+5. Kendall Tau Statistics ===> -0.00
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 38.00%
+3. Top 5% Acc ===> 27.60%
+4. Top 10% Acc ===> 52.60%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 62.00%
+3. Top 5% Acc ===> 85.20%
+4. Top 10% Acc ===> 82.00%
+5. Kendall Tau Statistics ===> 0.26
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 92.00%
+3. Top 5% Acc ===> 84.40%
+4. Top 10% Acc ===> 80.20%
+5. Kendall Tau Statistics ===> 0.34
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 96.00%
+3. Top 5% Acc ===> 84.00%
+4. Top 10% Acc ===> 89.20%
+5. Kendall Tau Statistics ===> 0.47
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 62.00%
+3. Top 5% Acc ===> 14.00%
+4. Top 10% Acc ===> 9.40%
+5. Kendall Tau Statistics ===> 0.01
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 26.00%
+3. Top 5% Acc ===> 22.40%
+4. Top 10% Acc ===> 47.60%
+5. Kendall Tau Statistics ===> 0.47
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 66.00%
+3. Top 5% Acc ===> 86.40%
+4. Top 10% Acc ===> 78.40%
+5. Kendall Tau Statistics ===> 0.27
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 86.00%
+3. Top 5% Acc ===> 86.40%
+4. Top 10% Acc ===> 77.20%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 92.00%
+3. Top 5% Acc ===> 84.80%
+4. Top 10% Acc ===> 86.40%
+5. Kendall Tau Statistics ===> 0.47
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 38.00%
+3. Top 5% Acc ===> 10.00%
+4. Top 10% Acc ===> 7.20%
+5. Kendall Tau Statistics ===> -0.03
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 30.00%
+3. Top 5% Acc ===> 19.60%
+4. Top 10% Acc ===> 46.60%
+5. Kendall Tau Statistics ===> 0.45
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 52.00%
+3. Top 5% Acc ===> 86.80%
+4. Top 10% Acc ===> 80.20%
+5. Kendall Tau Statistics ===> 0.29
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 90.00%
+3. Top 5% Acc ===> 85.60%
+4. Top 10% Acc ===> 78.80%
+5. Kendall Tau Statistics ===> 0.36
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 96.00%
+3. Top 5% Acc ===> 84.80%
+4. Top 10% Acc ===> 90.00%
+5. Kendall Tau Statistics ===> 0.50
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 54.00%
+3. Top 5% Acc ===> 11.60%
+4. Top 10% Acc ===> 9.80%
+5. Kendall Tau Statistics ===> -0.01
+======================================================================
+Loading data...
+Start testing!!
+=============================== Result ===============================
+1. Running time for testing: 0
+2. Top 1% Acc ===> 32.00%
+3. Top 5% Acc ===> 26.40%
+4. Top 10% Acc ===> 52.00%
+5. Kendall Tau Statistics ===> 0.49
+======================================================================
+Loading data...
+Loading data...
