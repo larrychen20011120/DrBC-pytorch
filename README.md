@@ -1,6 +1,14 @@
 # DrBC-pytorch
 The implementation of paper named "Learning to Identify High Betweenness Centrality Nodes from Scratch: A Novel Graph Neural Network Approach" (CIKM 2019).
 
+## Project structure
+* **model.py**: the model structure of DrBC
+* **utils.py**: the loss and metrics for DrBC training and testing
+* **train.py**: define how to train the model DrBC
+* **test.py**: given path of graph and ground truth, and then calculate the testing result
+* **generator.py**: definition of dataset and how to get information from it, and it also contains the main function to generate the training data, which will store in train_val_gen/
+
+
 ## How to use it
 ### generating your own data
 ```
