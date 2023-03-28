@@ -6,9 +6,7 @@ import torch
 
 def test(model, test_graph, device):
     device = torch.device("cuda:0" if torch.cuda.is_available() and device == "gpu" else "cpu")
-    metrics = Metrics()
-    # start timer
-    metrics.start_timer()
+    metrics = Metrics()    
 
     print("Start testing!!")
     model.to(device)
@@ -24,10 +22,11 @@ def test(model, test_graph, device):
     gt = torch.tensor(gt).view(-1, 1)
 
     with torch.no_grad():
+        metrics.start_timer()
         pred = model(graph_input.to(device), edge_idx.to(device))
+        metrics.end_timer()
         metrics.set_output(pred, gt)
 
-    metrics.end_timer()
     print("=============================== Result ===============================")
     print(f"1. Running time for testing: {metrics.get_runtime()}")
     print(f"2. Top 1% Acc ===> {metrics.top_k(k=1):.2f}%")
