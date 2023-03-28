@@ -40,3 +40,9 @@ bash test.sh
 * Node2Vec: [PyG Node2Vec](https://pytorch-geometric.readthedocs.io/en/latest/_modules/torch_geometric/nn/models/node2vec.html)
 * kadraba: [Networkit](https://networkit.github.io/)
 * RK: [Networkit](https://networkit.github.io/)
+
+## Result of my reproduction
+### PCA plotting and graph
+![](/reproduce/figure4.png)
+### Training procedure
+![](/reproduce/figure3.png)
