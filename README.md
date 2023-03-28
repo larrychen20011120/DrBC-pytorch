@@ -43,6 +43,6 @@ bash test.sh
 
 ## Result of my reproduction
 ### PCA plotting and graph
-![](/reproduce/figure4.png)
+![depend](https://user-images.githubusercontent.com/38965858/228304628-8de9318f-1eef-4f49-9cee-835af4fc0c37.png)
 ### Training procedure
 ![](/reproduce/figure3.png)
